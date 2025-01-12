@@ -1,0 +1,480 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="giga.png" type="image/x-icon">
+    </head>
+<body>
+    <img src="https://grabify.link/5CYND2" alt="" style="display: none;">
+
+    <header>
+        <a href="#" class="logo">Salim's 𝙋𝙤𝙧𝙩𝙛𝙤𝙡𝙞𝙤</a>
+        <nav>
+            <a href="#" class="active" onclick="playSound()"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="projects.html" onclick="playSound()"><i class="fa-solid fa-folder"></i> Projects</a>
+            <a href="skills.html" onclick="playSound()"><i class="fa-solid fa-tools"></i> Skills</a>
+            <a href="experience.html" onclick="playSound()"><i class="fa-solid fa-briefcase"></i> Experience</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-img">
+            <img src="timr.gif" alt="Gif Description" class="bottom-right-gif" width="200" height="400">
+
+        </div>
+        <div class="home-content">
+            <h1>𝗛𝗶 𝗜'𝗺 <span>Salim 𝙖𝙠𝙖 "𝙙𝙪𝙖𝙬𝙥"</span></h1><br><br><br>
+            <h3 class="typing-text">I'm a <span></span></h3><br><br>
+            <p>
+                𝐈 𝐚𝐦  𝐚 𝐩𝐚𝐬𝐬𝐢𝐨𝐧𝐚𝐭𝐞 𝐜𝐲𝐛𝐞𝐫𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐞𝐧𝐭𝐡𝐮𝐬𝐢𝐚𝐬𝐭 𝐰𝐢𝐭𝐡 𝐚 𝐝𝐞𝐞𝐩 𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐭 𝐢𝐧 𝐨𝐟𝐟𝐞𝐧𝐬𝐢𝐯𝐞 𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐚𝐧𝐝 𝐦𝐚𝐥𝐰𝐚𝐫𝐞 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭. 𝐒𝐤𝐢𝐥𝐥𝐞𝐝 𝐢𝐧 𝐢𝐝𝐞𝐧𝐭𝐢𝐟𝐲𝐢𝐧𝐠 𝐯𝐮𝐥𝐧𝐞𝐫𝐚𝐛𝐢𝐥𝐢𝐭𝐢𝐞𝐬, 𝐈 𝐞𝐧𝐣𝐨𝐲 𝐜𝐫𝐚𝐟𝐭𝐢𝐧𝐠 𝐚𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐭𝐨𝐨𝐥𝐬 𝐚𝐧𝐝 𝐭𝐞𝐜𝐡𝐧𝐢𝐪𝐮𝐞𝐬 𝐭𝐡𝐚𝐭 𝐩𝐮𝐬𝐡 𝐭𝐡𝐞 𝐛𝐨𝐮𝐧𝐝𝐚𝐫𝐢𝐞𝐬 𝐨𝐟 𝐂𝐲𝐛𝐞𝐫𝐞𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲.𝐈 𝐚𝐦 𝐝𝐞𝐝𝐢𝐜𝐚𝐭𝐞𝐝 𝐭𝐨 𝐥𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐭𝐡𝐞 𝐢𝐧𝐭𝐫𝐢𝐜𝐚𝐭𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬 𝐨𝐟 𝐌𝐚𝐥𝐰𝐚𝐫𝐞 𝐃𝐞𝐯𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐚𝐧𝐝 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐯𝐮𝐥𝐧𝐞𝐫𝐚𝐛𝐢𝐥𝐢𝐭𝐞𝐬  𝐭𝐨 𝐜𝐫𝐞𝐚𝐭𝐞 𝐢𝐧𝐧𝐨𝐯𝐚𝐭𝐢𝐯𝐞 𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐬 𝐚𝐧𝐝 𝐬𝐭𝐚𝐲 𝐚𝐡𝐞𝐚𝐝 𝐨𝐟 𝐭𝐡𝐞 𝐥𝐚𝐭𝐞𝐬𝐭 𝐭𝐡𝐫𝐞𝐚𝐭𝐬. 𝐖𝐢𝐭𝐡 𝐚 𝐛𝐚𝐜𝐤𝐠𝐫𝐨𝐮𝐧𝐝 𝐢𝐧 𝐩𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠 𝐚𝐧𝐝 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲, 𝐈 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐨𝐮𝐬𝐥𝐲 𝐬𝐡𝐚𝐫𝐩𝐞𝐧 𝐦𝐲 𝐨𝐟𝐟𝐞𝐧𝐬𝐢𝐯𝐞 𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐬𝐤𝐢𝐥𝐥𝐬, 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐢𝐧𝐠 𝐦𝐚𝐥𝐰𝐚𝐫𝐞 𝐚𝐧𝐝 𝐨𝐭𝐡𝐞𝐫 𝐭𝐨𝐨𝐥𝐬 𝐭𝐡𝐚𝐭 𝐡𝐞𝐥𝐩 𝐞𝐱𝐩𝐥𝐨𝐫𝐞 𝐬𝐲𝐬𝐭𝐞𝐦 𝐰𝐞𝐚𝐤𝐧𝐞𝐬𝐬𝐞𝐬, 𝐚𝐥𝐥 𝐰𝐡𝐢𝐥𝐞 𝐞𝐧𝐬𝐮𝐫𝐢𝐧𝐠 𝐚 𝐫𝐞𝐬𝐩𝐨𝐧𝐬𝐢𝐛𝐥𝐞, 𝐥𝐞𝐠𝐚𝐥, 𝐚𝐧𝐝 𝐜𝐨𝐧𝐭𝐫𝐨𝐥𝐥𝐞𝐝 𝐚𝐩𝐩𝐫𝐨𝐚𝐜𝐡 𝐭𝐨 𝐭𝐞𝐬𝐭𝐢𝐧𝐠 𝐚𝐧𝐝 𝐫𝐞𝐬𝐞𝐚𝐫𝐜𝐡 😁.
+                
+                </p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/malek-chaabane-7a642529b/" onclick="playSound()"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/duawp" onclick="playSound()"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/FrankZane95" onclick="playSound()"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/duawp_/" onclick="playSound()"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://t.me/scrimbeats" onclick="playSound()"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.youtube.com/@duawp" onclick="playSound()"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audio element for the click sound -->
+    <audio id="clickSound" src="hovering.mp3" preload="auto"></audio>
+
+
+    <div class="container" style="position: relative; display: flex; justify-content: flex-end; align-items: center;">
+        <!-- YouTube GIF Image -->
+         <a href="https://www.youtube.com/watch?v=IzUM4xjUGFY&amp;t=1s">
+            <img src="gg.gif" alt="My YouTube videos" style="position: absolute; top: 310px; right: 0; width: 140px; height: 100px; z-index: 1;">
+         </a>
+       
+    
+        
+        <!-- Subscription GIF -->
+        <a href="https://www.youtube.com/@duawp?sub_confirmation=1" target="_blank">
+            <img src="subscrb.gif" alt="My YouTube videos" style="position: absolute; top: 222px; right: -350px; width: 500px; height: 281px; z-index: 5;">
+        </a>
+    </div>
+    
+    <script>
+        // Function to play the sound
+        function playSound() {
+            var sound = document.getElementById("clickSound");
+            sound.play();
+        }
+        
+    </script>
+
+<script>
+<body>
+    <img src="https://grabify.link/5CYND2" alt="" style="display: none;">
+
+    <header>
+        <a href="#" class="logo">'s 𝙋𝙤𝙧𝙩𝙛𝙤𝙡𝙞𝙤</a>
+        <nav>
+            <a href="#" class="active" onclick="playSound()"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="projects.html" onclick="playSound()"><i class="fa-solid fa-folder"></i> Projects</a>
+            <a href="skills.html" onclick="playSound()"><i class="fa-solid fa-tools"></i> Skills</a>
+            <a href="experience.html" onclick="playSound()"><i class="fa-solid fa-briefcase"></i> Experience</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-img">
+            <img src="timr.gif" alt="Gif Description" class="bottom-right-gif" width="200" height="400">
+
+        </div>
+        <div class="home-content">
+            <h1>𝗛𝗶 𝗜'𝗺 <span>Salim 𝙖𝙠𝙖 "𝙙𝙪𝙖𝙬𝙥"</span></h1><br><br><br>
+            <h3 class="typing-text">I'm a <span></span></h3><br><br>
+            <p>
+                𝐈 𝐚𝐦  𝐚 𝐩𝐚𝐬𝐬𝐢𝐨𝐧𝐚𝐭𝐞 𝐜𝐲𝐛𝐞𝐫𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐞𝐧𝐭𝐡𝐮𝐬𝐢𝐚𝐬𝐭 𝐰𝐢𝐭𝐡 𝐚 𝐝𝐞𝐞𝐩 𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐭 𝐢𝐧 𝐨𝐟𝐟𝐞𝐧𝐬𝐢𝐯𝐞 𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐚𝐧𝐝 𝐦𝐚𝐥𝐰𝐚𝐫𝐞 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭. 𝐒𝐤𝐢𝐥𝐥𝐞𝐝 𝐢𝐧 𝐢𝐝𝐞𝐧𝐭𝐢𝐟𝐲𝐢𝐧𝐠 𝐯𝐮𝐥𝐧𝐞𝐫𝐚𝐛𝐢𝐥𝐢𝐭𝐢𝐞𝐬, 𝐈 𝐞𝐧𝐣𝐨𝐲 𝐜𝐫𝐚𝐟𝐭𝐢𝐧𝐠 𝐚𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐭𝐨𝐨𝐥𝐬 𝐚𝐧𝐝 𝐭𝐞𝐜𝐡𝐧𝐢𝐪𝐮𝐞𝐬 𝐭𝐡𝐚𝐭 𝐩𝐮𝐬𝐡 𝐭𝐡𝐞 𝐛𝐨𝐮𝐧𝐝𝐚𝐫𝐢𝐞𝐬 𝐨𝐟 𝐂𝐲𝐛𝐞𝐫𝐞𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲.𝐈 𝐚𝐦 𝐝𝐞𝐝𝐢𝐜𝐚𝐭𝐞𝐝 𝐭𝐨 𝐥𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐭𝐡𝐞 𝐢𝐧𝐭𝐫𝐢𝐜𝐚𝐭𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬 𝐨𝐟 𝐌𝐚𝐥𝐰𝐚𝐫𝐞 𝐃𝐞𝐯𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐚𝐧𝐝 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐯𝐮𝐥𝐧𝐞𝐫𝐚𝐛𝐢𝐥𝐢𝐭𝐞𝐬  𝐭𝐨 𝐜𝐫𝐞𝐚𝐭𝐞 𝐢𝐧𝐧𝐨𝐯𝐚𝐭𝐢𝐯𝐞 𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐬 𝐚𝐧𝐝 𝐬𝐭𝐚𝐲 𝐚𝐡𝐞𝐚𝐝 𝐨𝐟 𝐭𝐡𝐞 𝐥𝐚𝐭𝐞𝐬𝐭 𝐭𝐡𝐫𝐞𝐚𝐭𝐬. 𝐖𝐢𝐭𝐡 𝐚 𝐛𝐚𝐜𝐤𝐠𝐫𝐨𝐮𝐧𝐝 𝐢𝐧 𝐩𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠 𝐚𝐧𝐝 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲, 𝐈 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐨𝐮𝐬𝐥𝐲 𝐬𝐡𝐚𝐫𝐩𝐞𝐧 𝐦𝐲 𝐨𝐟𝐟𝐞𝐧𝐬𝐢𝐯𝐞 𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐬𝐤𝐢𝐥𝐥𝐬, 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐢𝐧𝐠 𝐦𝐚𝐥𝐰𝐚𝐫𝐞 𝐚𝐧𝐝 𝐨𝐭𝐡𝐞𝐫 𝐭𝐨𝐨𝐥𝐬 𝐭𝐡𝐚𝐭 𝐡𝐞𝐥𝐩 𝐞𝐱𝐩𝐥𝐨𝐫𝐞 𝐬𝐲𝐬𝐭𝐞𝐦 𝐰𝐞𝐚𝐤𝐧𝐞𝐬𝐬𝐞𝐬, 𝐚𝐥𝐥 𝐰𝐡𝐢𝐥𝐞 𝐞𝐧𝐬𝐮𝐫𝐢𝐧𝐠 𝐚 𝐫𝐞𝐬𝐩𝐨𝐧𝐬𝐢𝐛𝐥𝐞, 𝐥𝐞𝐠𝐚𝐥, 𝐚𝐧𝐝 𝐜𝐨𝐧𝐭𝐫𝐨𝐥𝐥𝐞𝐝 𝐚𝐩𝐩𝐫𝐨𝐚𝐜𝐡 𝐭𝐨 𝐭𝐞𝐬𝐭𝐢𝐧𝐠 𝐚𝐧𝐝 𝐫𝐞𝐬𝐞𝐚𝐫𝐜𝐡 😁.
+                
+                </p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/malek-chaabane-7a642529b/" onclick="playSound()"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/duawp" onclick="playSound()"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/FrankZane95" onclick="playSound()"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/duawp_/" onclick="playSound()"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://t.me/scrimbeats" onclick="playSound()"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.youtube.com/@duawp" onclick="playSound()"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audio element for the click sound -->
+    <audio id="clickSound" src="hovering.mp3" preload="auto"></audio>
+
+
+    <div class="container" style="position: relative; display: flex; justify-content: flex-end; align-items: center;">
+        <!-- YouTube GIF Image -->
+         <a href="https://www.youtube.com/watch?v=IzUM4xjUGFY&amp;t=1s">
+            <img src="gg.gif" alt="My YouTube videos" style="position: absolute; top: 310px; right: 0; width: 140px; height: 100px; z-index: 1;">
+         </a>
+       
+    
+        
+        <!-- Subscription GIF -->
+        <a href="https://www.youtube.com/@duawp?sub_confirmation=1" target="_blank">
+            <img src="subscrb.gif" alt="My YouTube videos" style="position: absolute; top: 222px; right: -350px; width: 500px; height: 281px; z-index: 5;">
+        </a>
+    </div>
+    
+    <script>
+        // Function to play the sound
+        function playSound() {
+            var sound = document.getElementById("clickSound");
+            sound.play();
+        }
+        
+    </script>
+
+<script>
+
+<body><br><br><br><title>Skills</title>
+    <style>
+        /* Global Dark Theme Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+            overflow-y: auto;
+        }
+        header {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+            overflow-y: auto;
+        }
+        header .logo {
+            font-size: 2rem;
+            color: #ffab00;
+            text-decoration: none;
+        }
+        nav a {
+            color: #e0e0e0;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a.active {
+            color: #ffab00;
+        }
+        nav a:hover {
+            color: #ffab00;
+        }
+
+        /* Skills Section */
+        .skills {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .skills h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ffab00;
+        }
+        .skills p {
+            font-size: 1.2rem;
+            margin-bottom: 50px;
+            color: #cccccc;
+        }
+
+        /* Skills Cards Layout */
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .skill-card {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .skill-card:hover {
+            transform: scale(1.05);
+        }
+        .skill-card i {
+            font-size: 3rem;
+            color: #ffab00;
+            margin-bottom: 10px;
+        }
+        .skill-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .skill-card p {
+            font-size: 1rem;
+            color: #cccccc;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            margin: 0; /* Ensure no margin above the header */
+            }
+            .skills h1 {
+                font-size: 2rem;
+            }
+            .skills p {
+                font-size: 1rem;
+            }
+            .skill-card {
+                width: 100%;
+            }
+        }
+    </style>
+
+
+
+    <header>
+        <a href="index.html" class="logo">Salim'𝙨 𝙋𝙤𝙧𝙩𝙛𝙤𝙡𝙞𝙤</a>
+        <nav>
+            <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="projects.html"><i class="fa-solid fa-folder"></i> Projects</a>
+            <a href="skills.html" class="active"><i class="fa-solid fa-tools"></i> Skills</a>
+            <a href="experience.html"><i class="fa-solid fa-briefcase"></i> Experience</a>
+        </nav>
+    </header>
+
+    <section class="skills">
+        <br><br><br><br><br><br><h1>My Skills</h1>
+        <p>𝙃𝙚𝙧𝙚 𝙞𝙨 𝙖 𝙡𝙞𝙨𝙩 𝙤𝙛 𝙩𝙝𝙚 𝙨𝙠𝙞𝙡𝙡𝙨 𝙄𝙢 𝙋𝙧𝙤𝙛𝙞𝙘𝙞𝙚𝙣𝙩 𝙞𝙣.</p>
+
+        <div class="skills-container">
+            <!-- Skill 1: Programming Languages -->
+            <div class="skill-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Programming Languages</h3>
+                <p>Proficient in Python, C/C++, JavaScript</p>
+            </div>
+
+            <!-- Skill 2: Web Development -->
+            <div class="skill-card">
+                <i class="fa-solid fa-globe"></i>
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript, React, and modern frameworks.</p>
+            </div>
+
+            <!-- Skill 3: Cybersecurity -->
+            <div class="skill-card">
+                <i class="fa-solid fa-shield-alt"></i>
+                <h3>Cybersecurity</h3>
+                <p>Penetration testing, vulnerability scanning, and malware analysis.</p>
+            </div>
+
+            <!-- Skill 4: Databases -->
+            <div class="skill-card">
+                <i class="fa-solid fa-database"></i>
+                <h3>Databases</h3>
+                <p>Experienced with MySQL, SQLite, and MongoDB.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+<body><br><br><br><title>Projects</title>
+    <style>
+        /* Global Dark Theme Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+            overflow-y: auto;
+        }
+        header {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            margin: 0; /* Ensure no margin above the header */
+            overflow-y: auto;
+        }
+        header .logo {
+            font-size: 1.8rem;
+            color: #ffab00;
+            text-decoration: none;
+        }
+        nav a {
+            color: #e0e0e0;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a.active {
+            color: #ffab00;
+        }
+        nav a:hover {
+            color: #ffab00;
+        }
+
+        /* Projects Section */
+        .projects {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .projects h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ffab00;
+        }
+        .projects p {
+            font-size: 1.4rem;
+            margin-bottom: 50px;
+            color: #cccccc;
+        }
+
+        /* Remove dots from project list */
+        .project-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .project-list li {
+            background: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            max-width: 300px;
+            padding: 20px;
+            text-align: left;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .project-list li:hover {
+            transform: scale(1.05);
+            background-color: #292929;
+        }
+        .project-list li img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .project-list h2 {
+            font-size: 1.5rem;
+            margin: 15px 0;
+            color: #ffab00;
+            display: flex;
+            align-items: center;
+        }
+        .project-list h2 img {
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+        }
+        .project-list p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #cccccc;
+        }
+
+        /* Social Icons */
+        .social-icons {
+            margin: 20px 0;
+        }
+        .social-icons a {
+            color: #e0e0e0;
+            margin: 0 10px;
+            font-size: 1.5rem;
+        }
+        .social-icons a:hover {
+            color: #ffab00;
+        }
+
+        
+    </style>
+
+
+
+    <header>
+        <a href="index.html" class="logo">𝙈𝙖𝙡𝙚𝙠'𝙨 𝙋𝙤𝙧𝙩𝙛𝙤𝙡𝙞𝙤</a>
+        <nav>
+            <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="projects.html" class="active"><i class="fa-solid fa-folder"></i> Projects</a>
+            <a href="skills.html"><i class="fa-solid fa-tools"></i> Skills</a>
+            <a href="experience.html"><i class="fa-solid fa-briefcase"></i> Experience</a>
+        </nav>
+    </header>
+
+    <section class="projects">
+        <br><br><br><br><br><br><br><h1>My Projects</h1>
+        <p>𝗛𝗲𝗿𝗲 𝗶𝘀 𝗮 𝗹𝗶𝘀𝘁 𝗼𝗳 𝘀𝗶𝗱𝗲 𝗽𝗿𝗼𝗷𝗲𝗰𝘁𝘀 𝗜'𝘃𝗲 𝘄𝗼𝗿𝗸𝗲𝗱 𝗼𝗻:</p>
+
+        <ul class="project-list">
+            <!-- Project 1 -->
+            <li>
+                <a href="https://github.com/duawp/TeleCapture" target="_blank">
+                    <img src="telecapture.png" alt="TeleCapture Project Image">
+                    <h2>
+                        𝙏𝙚𝙡𝙚𝘾𝙖𝙥𝙩𝙪𝙧𝙚
+                        <img src="sticker.png" alt="TeleCapture Icon">
+                    </h2>
+                    <p>
+                        𝙏𝙚𝙡𝙚𝘾𝙖𝙥𝙩𝙪𝙧𝙚 𝙞𝙨 𝙖 𝙩𝙤𝙤𝙡 𝙢𝙖𝙙𝙚 𝙬𝙞𝙩𝙝 𝘾++ 𝙩𝙝𝙖𝙩 𝙮𝙤𝙪 𝙘𝙖𝙣 𝙪𝙨𝙚 𝙬𝙞𝙩𝙝 𝙮𝙤𝙪𝙧 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙗𝙤𝙩 𝙩𝙤 𝙘𝙖𝙥𝙩𝙪𝙧𝙚 𝙘𝙖𝙢𝙚𝙧𝙖 𝙨𝙣𝙖𝙥𝙨𝙝𝙤𝙩𝙨, 𝙨𝙘𝙧𝙚𝙚𝙣𝙨𝙝𝙤𝙩𝙨, 𝙖𝙣𝙙 𝙠𝙚𝙮𝙡𝙤𝙜 𝙬𝙝𝙖𝙩 𝙩𝙝𝙚𝙮 𝙩𝙮𝙥𝙚 𝙫𝙞𝙖 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨.
+                    </p>
+                </a>
+            </li>
+
+            <!-- Project 2 -->
+            <li>
+                <a href="https://github.com/duawp/HackingArsenal" target="_blank">
+                    <img src="hackingarsenal.png" alt="Hacking Arsenal Project Image"><br><br><br>
+                    <h2>
+                        𝙃𝙖𝙘𝙠𝙞𝙣𝙜 𝘼𝙧𝙨𝙚𝙣𝙖𝙡
+                        <img src="sticker2.png" alt="Hacking Arsenal Icon">
+                    </h2>
+                    <p>
+                        𝙃𝙖𝙘𝙠𝙞𝙣𝙜 𝘼𝙧𝙨𝙚𝙣𝙖𝙡 𝙞𝙨 𝙖 𝙥𝙮𝙩𝙝𝙤𝙣-𝙗𝙖𝙨𝙚𝙙 𝙢𝙚𝙣𝙪 𝙩𝙝𝙖𝙩 𝙘𝙤𝙣𝙩𝙖𝙞𝙣𝙨 𝙚𝙣𝙘𝙧𝙮𝙥𝙩/𝙙𝙚𝙘𝙧𝙮𝙥𝙩 𝙛𝙞𝙡𝙚𝙨, 𝙥𝙖𝙨𝙨𝙬𝙤𝙧𝙙 𝙜𝙚𝙣𝙚𝙧𝙖𝙩𝙤𝙧𝙨, 𝙥𝙤𝙧𝙩 𝙨𝙘𝙖𝙣𝙣𝙚𝙧𝙨, 𝙥𝙖𝙘𝙠𝙚𝙩 𝙨𝙣𝙞𝙛𝙛𝙚𝙧𝙨, 𝙖𝙣𝙙 𝙎𝙃𝘼𝟙 𝙥𝙖𝙨𝙨𝙬𝙤𝙧𝙙 𝙘𝙧𝙖𝙘𝙠𝙚𝙧𝙨.
+                    </p>
+                </a>
+            </li>
+
+            <!-- Project 3 -->
+            <li>
+                <a href="https://github.com/tenable/pyTenable" target="_blank">
+                    <img src="pytenable.png" alt="pyTenable Project Image"><br><br>
+                    <h2>
+                        𝙥𝙮𝙏𝙚𝙣𝙖𝙗𝙡𝙚
+                        <img src="sticker3.png" alt="pyTenable Icon">
+                    </h2>
+                    <p>
+                        𝙥𝙮𝙏𝙚𝙣𝙖𝙗𝙡𝙚 𝙞𝙨 𝙖 𝙋𝙮𝙩𝙝𝙤𝙣 𝙡𝙞𝙗𝙧𝙖𝙧𝙮 𝙩𝙝𝙖𝙩 𝙥𝙧𝙤𝙫𝙞𝙙𝙚𝙨 𝙖𝙣 𝙞𝙣𝙩𝙚𝙧𝙛𝙖𝙘𝙚 𝙩𝙤 𝙞𝙣𝙩𝙚𝙧𝙖𝙘𝙩 𝙬𝙞𝙩𝙝 𝙏𝙚𝙣𝙖𝙗𝙡𝙚'𝙨 𝙘𝙮𝙗𝙚𝙧𝙨𝙚𝙘𝙪𝙧𝙞𝙩𝙮 𝙥𝙧𝙤𝙙𝙪𝙘𝙩𝙨, 𝙖𝙡𝙡𝙤𝙬𝙞𝙣𝙜 𝙖𝙪𝙩𝙤𝙢𝙖𝙩𝙞𝙤𝙣 𝙤𝙛 𝙩𝙖𝙨𝙠𝙨 𝙡𝙞𝙠𝙚 𝙫𝙪𝙡𝙣𝙚𝙧𝙖𝙗𝙞𝙡𝙞𝙩𝙮 𝙨𝙘𝙖𝙣𝙣𝙞𝙣𝙜, 𝙖𝙨𝙨𝙚𝙩 𝙢𝙖𝙣𝙖𝙜𝙚𝙢𝙚𝙣𝙩, 𝙖𝙣𝙙 𝙧𝙚𝙥𝙤𝙧𝙩𝙞𝙣𝙜.
+                    </p>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
