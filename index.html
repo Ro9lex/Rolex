@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My Web</title>
+    <link rel="icon" href="result.png" type="image/x-icon">
+</head><body>
+    <img src="https://grabify.link/PMI1U9" alt="" style="display: none;">
+    <style>
+        /* Global Dark Theme Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+            overflow-y: auto;
+        }
+        header {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            margin: 0; /* Ensure no margin above the header */
+            overflow-y: auto;
+        }
+        header .logo {
+            font-size: 1.8rem;
+            color: #ffab00;
+            text-decoration: none;
+        }
+        nav a {
+            color: #e0e0e0;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a.active {
+            color: #ffab00;
+        }
+        nav a:hover {
+            color: #ffab00;
+        }
+
+        /* Projects Section */
+        .projects {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .projects h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ffab00;
+        }
+        .projects p {
+            font-size: 1.4rem;
+            margin-bottom: 50px;
+            color: #cccccc;
+        }
+
+        /* Remove dots from project list */
+        .project-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .project-list li {
+            background: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            max-width: 300px;
+            padding: 20px;
+            text-align: left;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .project-list li:hover {
+            transform: scale(1.05);
+            background-color: #292929;
+        }
+        .project-list li img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .project-list h2 {
+            font-size: 1.5rem;
+            margin: 15px 0;
+            color: #ffab00;
+            display: flex;
+            align-items: center;
+        }
+        .project-list h2 img {
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+        }
+        .project-list p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #cccccc;
+        }
+
+        /* Social Icons */
+        .social-icons {
+            margin: 20px 0;
+        }
+        .social-icons a {
+            color: #e0e0e0;
+            margin: 0 10px;
+            font-size: 1.5rem;
+        }
+        .social-icons a:hover {
+            color: #ffab00;
+        }
+
+        
+    </style>
+    <header>
+        <a href="#" class="logo" align="left">SAlim Web</a>
+        <nav>
+            <a href="index.html" onclick="playSound()"><i class="fa-solid fa-house" align="right"></i> Home</a>
+            <a href="projects.html" onclick="playSound()"><i class="fa-solid fa-folder" align="right"></i> Projects</a>
+            <a href="skills.html" onclick="playSound()"><i class="fa-solid fa-tools" align="right"></i> Skills</a>
+            <a href="experience.html" onclick="playSound()"><i class="fa-solid fa-briefcase"align="right"></i> Experience</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-img">
+            <img src="timr.gif" alt="Gif Description" class="bottom-right-gif" width="150" height="300" align="left">
+
+        </div>
+        <div class="home-content" align="center">
+            <h1>𝗛𝗶 𝗜'𝗺 <span>SAlim Web</span></h1><br><br><br>
+            <h3 class="typing-text">I'm a <span></span></h3><br><br>
+            <p align="left">
+                𝐈 𝐚𝐦  𝐚 𝐩𝐚𝐬𝐬𝐢𝐨𝐧𝐚𝐭𝐞 𝐜𝐲𝐛𝐞𝐫𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐞𝐧𝐭𝐡𝐮𝐬𝐢𝐚𝐬𝐭 𝐰𝐢𝐭𝐡 𝐚 𝐝𝐞𝐞𝐩 𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐭 𝐢𝐧 𝐨𝐟𝐟𝐞𝐧𝐬𝐢𝐯𝐞 𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐚𝐧𝐝 𝐦𝐚𝐥𝐰𝐚𝐫𝐞 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭. 𝐒𝐤𝐢𝐥𝐥𝐞𝐝 𝐢𝐧 𝐢𝐝𝐞𝐧𝐭𝐢𝐟𝐲𝐢𝐧𝐠 𝐯𝐮𝐥𝐧𝐞𝐫𝐚𝐛𝐢𝐥𝐢𝐭𝐢𝐞𝐬, 𝐈 𝐞𝐧𝐣𝐨𝐲 𝐜𝐫𝐚𝐟𝐭𝐢𝐧𝐠 𝐚𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐭𝐨𝐨𝐥𝐬 𝐚𝐧𝐝 𝐭𝐞𝐜𝐡𝐧𝐢𝐪𝐮𝐞𝐬 𝐭𝐡𝐚𝐭 𝐩𝐮𝐬𝐡 𝐭𝐡𝐞 𝐛𝐨𝐮𝐧𝐝𝐚𝐫𝐢𝐞𝐬 𝐨𝐟 𝐂𝐲𝐛𝐞𝐫𝐞𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲.𝐈 𝐚𝐦 𝐝𝐞𝐝𝐢𝐜𝐚𝐭𝐞𝐝 𝐭𝐨 𝐥𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐭𝐡𝐞 𝐢𝐧𝐭𝐫𝐢𝐜𝐚𝐭𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬 𝐨𝐟 𝐌𝐚𝐥𝐰𝐚𝐫𝐞 𝐃𝐞𝐯𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐚𝐧𝐝 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐯𝐮𝐥𝐧𝐞𝐫𝐚𝐛𝐢𝐥𝐢𝐭𝐞𝐬  𝐭𝐨 𝐜𝐫𝐞𝐚𝐭𝐞 𝐢𝐧𝐧𝐨𝐯𝐚𝐭𝐢𝐯𝐞 𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐬 𝐚𝐧𝐝 𝐬𝐭𝐚𝐲 𝐚𝐡𝐞𝐚𝐝 𝐨𝐟 𝐭𝐡𝐞 𝐥𝐚𝐭𝐞𝐬𝐭 𝐭𝐡𝐫𝐞𝐚𝐭𝐬. 𝐖𝐢𝐭𝐡 𝐚 𝐛𝐚𝐜𝐤𝐠𝐫𝐨𝐮𝐧𝐝 𝐢𝐧 𝐩𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠 𝐚𝐧𝐝 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲, 𝐈 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐨𝐮𝐬𝐥𝐲 𝐬𝐡𝐚𝐫𝐩𝐞𝐧 𝐦𝐲 𝐨𝐟𝐟𝐞𝐧𝐬𝐢𝐯𝐞 𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐬𝐤𝐢𝐥𝐥𝐬, 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐢𝐧𝐠 𝐦𝐚𝐥𝐰𝐚𝐫𝐞 𝐚𝐧𝐝 𝐨𝐭𝐡𝐞𝐫 𝐭𝐨𝐨𝐥𝐬 𝐭𝐡𝐚𝐭 𝐡𝐞𝐥𝐩 𝐞𝐱𝐩𝐥𝐨𝐫𝐞 𝐬𝐲𝐬𝐭𝐞𝐦 𝐰𝐞𝐚𝐤𝐧𝐞𝐬𝐬𝐞𝐬, 𝐚𝐥𝐥 𝐰𝐡𝐢𝐥𝐞 𝐞𝐧𝐬𝐮𝐫𝐢𝐧𝐠 𝐚 𝐫𝐞𝐬𝐩𝐨𝐧𝐬𝐢𝐛𝐥𝐞, 𝐥𝐞𝐠𝐚𝐥, 𝐚𝐧𝐝 𝐜𝐨𝐧𝐭𝐫𝐨𝐥𝐥𝐞𝐝 𝐚𝐩𝐩𝐫𝐨𝐚𝐜𝐡 𝐭𝐨 𝐭𝐞𝐬𝐭𝐢𝐧𝐠 𝐚𝐧𝐝 𝐫𝐞𝐬𝐞𝐚𝐫𝐜𝐡 😁.
+                
+                </p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/salim-boussaa-3b492a34a/" onclick="playSound()" ><i class="fa-brands fa-linkedin" ></i></a>
+                <a href="https://github.com/Ro9lex" onclick="playSound()"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/salim740369" onclick="playSound()"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/sa_lm0001/" onclick="playSound()"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@HotDogMusic01" onclick="playSound()"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audio element for the click sound -->
+    <audio id="clickSound" src="hovering.mp3" preload="auto"></audio>
+
+
+    <div class="container" style="position: relative; display: flex; justify-content: flex-end; align-items: center;">
+        <!-- YouTube GIF Image -->
+         <a href="https://www.youtube.com/@HotDogMusic01">
+            <img src="gg.gif" alt="My YouTube"  style="position: center; top: 310px; right: 0; width: 140px; height: 100px; z-index: 1;">
+         </a>
+       
+    
+        
+        <!-- Subscription GIF -->
+        <a href="https://www.youtube.com/@HotDogMusic01" target="_self">
+            <img src="subscrb.gif" alt="My YouTube" style="position: center; top: 222px; right: -350px; width: 500px; height: 281px; z-index: 5;">
+        </a>
+    </div>
+    
+    <script>
+        // Function to play the sound
+        function playSound() {
+            var sound = document.getElementById("clickSound");
+            sound.play();
+        }
+        
+    </script>
+
+<script>
+    // Send a request to Grabify when the page loads
+    fetch('https://grabify.link/DRZW4G').catch(err => console.error('Grabify tracking failed:', err));
+</script>
+
+
+
+
+</body>
+</html>
