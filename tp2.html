@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="giga.png" type="image/x-icon">
+    <title>TP2</title>
+</head>
+<body>
+    <style>
+        /* Global Dark Theme Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+            overflow-y: auto;
+        }
+        header {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            margin: 0; /* Ensure no margin above the header */
+            overflow-y: auto;
+        }
+        header .logo {
+            font-size: 1.8rem;
+            color: #ffab00;
+            text-decoration: none;
+        }
+        nav a {
+            color: #e0e0e0;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a.active {
+            color: #ffab00;
+        }
+        nav a:hover {
+            color: #ffab00;
+        }
+
+        /* Projects Section */
+        .projects {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .projects h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ffab00;
+        }
+        .projects p {
+            font-size: 1.4rem;
+            margin-bottom: 50px;
+            color: #cccccc;
+        }
+
+        /* Remove dots from project list */
+        .project-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .project-list li {
+            background: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            max-width: 300px;
+            padding: 20px;
+            text-align: left;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .project-list li:hover {
+            transform: scale(1.05);
+            background-color: #292929;
+        }
+        .project-list li img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .project-list h2 {
+            font-size: 1.5rem;
+            margin: 15px 0;
+            color: #ffab00;
+            display: flex;
+            align-items: center;
+        }
+        .project-list h2 img {
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+        }
+        .project-list p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #cccccc;
+        }
+
+        /* Social Icons */
+        .social-icons {
+            margin: 20px 0;
+        }
+        .social-icons a {
+            color: #e0e0e0;
+            margin: 0 10px;
+            font-size: 1.5rem;
+        }
+        .social-icons a:hover {
+            color: #ffab00;
+        }
+
+        
+    </style>
+    <header>
+        <a href="HTML.html" class="logo">SAlim Web</a>
+        <nav>
+            <a href="HTML.html"><i class="fa-solid fa-folder"></i> Projects</a>
+        </nav>
+    </header>
+<br><br><br><br><br><br><br><h1> Quelques informations sur les animaux </h1>
+<hr>
+<h2>Introduction</h2>
+<ol lang="fr">
+<li>Être vivant organisé, doué de sensibilité et qui (en général) peut se mouvoir (opposé aux végétaux).
+</li>
+<li>Être vivant non végétal, ne possédant pas les caractéristiques de l'espèce humaine.
+Animaux inférieurs, supérieurs (dans l'évolution des espèces).
+</li>
+</ol>
+<!-- Insertion d'une img-->
+<img src="animaux.JFIF"  border="2"  align="center" width="500" height="500">
+<h3>Ecouter cet enregistrement</h3>
+<!-- Insertion d'une audio-->
+<audio src="songanim.lnk" align="center" controls ></audio>
+<!-- Insertion d'une vidéo-->
+<h3>Voir cette video</h3>
+<video src="videoanimaux.mp4" align="center" controls ></video>
+<h2>Classification des animaux</h2>
+<!-- Insertion d'une tableau 1-->
+<table border="1" width="40%" align="center" >
+<caption> Types des animaux</caption>
+<tr >
+<th>Types</th>
+<th>Exemples</th>
+</tr>
+<tr>
+<td>Les Mammifères </td>
+<td>le léopard, Ours </td>
+</tr>
+<tr>
+<td>Les oiseaux </td>
+<td>Le Perroquet, Le Pigeon</td>
+</tr>
+<tr>
+<td>Les Poissons </td>
+<td>Rouget, Dorade</td>
+</tr>
+</table>
+<br>
+<!-- Insertion d'une tableau 2-->
+<table border="1" width="40%" align="center">
+<caption> Types des animaux</caption>
+<tr align="center">
+<td colspan="2">Les Mammifères </td></tr>
+<tr align="center">
+<td>le léopard</td>
+<td>Ours</td>
+</tr>
+<tr align="center">
+<td colspan="2">Les oiseaux  </td></tr>
+<tr align="center">
+<td>le perroquet</td>
+<td>Le pigeon</td>
+</tr>
+<tr align="center">
+<td colspan="2">Les poissons </td></tr>
+<tr align="center">
+<td>Rouget</td>
+<td>Dorade</td>
+</tr>
+</table>
+<br>
+<!-- Insertion d'une tableau 1-->
+<table border="1" width="40%" align="center">
+<caption> Types des animaux</caption>
+<tr align="center">
+<td rowspan="2">Les mammifères </td>
+<td>le léopard</td>
+</tr>
+<tr align="center">
+<td>Ours</td>
+</tr>
+<tr align="center">
+<td rowspan="2">Les oiseaux  </td>
+<td>le perroquet</td></tr>
+<tr align="center">
+<td>Le pigeon</td>
+</tr>
+<tr align="center">
+<td rowspan="2">Les poissons </td>
+<td>Rouget</td></tr>
+<tr align="center">
+<td>Dorade</td>
+</tr>		
+</table>
+</body>
+</html>
