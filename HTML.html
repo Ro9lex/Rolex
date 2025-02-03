@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="giga.png" type="image/x-icon">
+</head>
+<body><br><br><br><title>Projects</title>
+    <style>
+        /* Global Dark Theme Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+            overflow-y: auto;
+        }
+        header {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            margin: 0; /* Ensure no margin above the header */
+            overflow-y: auto;
+        }
+        header .logo {
+            font-size: 1.8rem;
+            color: #ffab00;
+            text-decoration: none;
+        }
+        nav a {
+            color: #e0e0e0;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a.active {
+            color: #ffab00;
+        }
+        nav a:hover {
+            color: #ffab00;
+        }
+
+        /* Projects Section */
+        .projects {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .projects h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ffab00;
+        }
+        .projects p {
+            font-size: 1.4rem;
+            margin-bottom: 50px;
+            color: #cccccc;
+        }
+
+        /* Remove dots from project list */
+        .project-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .project-list li {
+            background: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            max-width: 300px;
+            padding: 20px;
+            text-align: left;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .project-list li:hover {
+            transform: scale(1.05);
+            background-color: #292929;
+        }
+        .project-list li img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .project-list h2 {
+            font-size: 1.5rem;
+            margin: 15px 0;
+            color: #ffab00;
+            display: flex;
+            align-items: center;
+        }
+        .project-list h2 img {
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+        }
+        .project-list p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #cccccc;
+        }
+
+        /* Social Icons */
+        .social-icons {
+            margin: 20px 0;
+        }
+        .social-icons a {
+            color: #e0e0e0;
+            margin: 0 10px;
+            font-size: 1.5rem;
+        }
+        .social-icons a:hover {
+            color: #ffab00;
+        }
+
+        
+    </style>
+
+
+
+    <header>
+        <a href="index.html" class="logo">SAlim Web</a>
+        <nav>
+            <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="projects.html"><i class="fa-solid fa-folder"></i> Projects</a>
+        </nav>
+    </header>
+
+    <section class="projects">
+        <br><br><br><br><br><br><br><h1>My Projects</h1>
+        <p>𝗛𝗲𝗿𝗲 𝗶𝘀 𝗮 𝗹𝗶𝘀𝘁 𝗼𝗳 𝘀𝗶𝗱𝗲 𝗽𝗿𝗼𝗷𝗲𝗰𝘁𝘀 𝗜'𝘃𝗲 𝘄𝗼𝗿𝗸𝗲𝗱 𝗼𝗻:</p>
+
+        <ul class="project-list">
+            <!-- Project HTML-->
+            <li>
+                <a href="tp2.html" target="_self">
+                    <img src="telecapture.png" alt="TeleCapture Project Image">
+                    <h2>
+                        HTML Project(TP2)
+                        <img src="sticker.png" alt="TeleCapture Icon">
+                    </h2>
+                    <p>
+                        TP2 it means MY Second project.
+                    </p>
+                </a>
+            </li>
+
+            <!-- Project Python-->
+            <li>
+                <a href="tp1.html" target="_self">
+                    <img src="hackingarsenal.png" alt="Hacking Arsenal Project Image"><br><br><br>
+                    <h2>
+                        HTML Project(TP1)
+                        <img src="sticker2.png" alt="Hacking Arsenal Icon">
+                    </h2>
+                    <p> TP1 it means MY First project.
+                        .
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a href="tp3.html" target="_self">
+                    <img src="hackingarsenal.png" alt="Hacking Arsenal Project Image"><br><br><br>
+                    <h2>
+                        HTML Project(TP3)
+                        <img src="sticker3.png" alt="Hacking Arsenal Icon">
+                    </h2>
+                    <p> TP3 it means MY Third project.
+                    </p>
+                </a>
+            </li>
+
+        </ul>
+    </section>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
