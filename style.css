@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* Desktop styles */
+.container {
+    width: 400px;
+    height: 225px;
+    float: right;
+     position: relative;
+     top: -500px;
+    flex: center;
+    margin: 500px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+.container gif {
+        position: absolute; /* Allows precise placement */
+        top: 50px;  /* Adjust this value to move the GIF up or down */
+        right: 30px; /* Adjust this value to move the GIF left or right */
+        width: 150px;  /* Adjust the width of the GIF */
+        height: 150px; /* Adjust the height of the GIF */
+        z-index: 2;    /* Ensures the GIF stays on top of the video */  
+}
+
+iframe {
+    z-index: 1; /* Ensures the video stays behind the GIF */
+}
+
+
+
+.projects h1 {
+    font-size: 4rem; /* Increase size for the heading */
+}
+
+.projects p {
+    font-size: 2rem; /* Increase size for the paragraph */
+}
+
+.projects ul li {
+    font-size: 2rem; /* Increase size for the list items */
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    overflow-y: auto; /* Disables scrolling */
+    height: 100%; 
+    padding-top: 110px;
+}
+
+.bottom-right-gif {
+    position: fixed;   /* Keep it fixed so it stays in the bottom right even when scrolling */
+    bottom: 20px;      /* Distance from the bottom of the page */
+    right: 20px;       /* Distance from the right of the page */
+    width: 150px;      /* Adjust the width as needed */
+    height: auto;      /* Maintain aspect ratio */
+    z-index: 1000;     /* Ensure it's above other content */
+}
+
+
+header{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 5%;
+    background-color: #000000;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    margin: 0;
+}
+
+header nav {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the nav items */
+    gap: 25px; /* Add space between the nav items */
+}
+
+
+.logo{
+    font-size: 3rem;
+    color: #838383;
+    font-weight: 800;
+    z-index: 1000;
+    cursor: pointer;
+    transition: top 0.5s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+nav a{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+    
+}
+
+nav a:hover,
+nav a.active{
+    color: #b74b4b;
+    border-bottom: 3px solid #b74b4b;
+}
+
+
+
+section{
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: black;
+}
+
+.home .home-content h1{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+span{
+    color: #b74b4b;
+}
+
+.home-content h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.home-content p{
+    font-size: 1.6rem;
+}
+
+.home-img {
+    /* Removed border-radius to ensure the parent container has no rounding */
+}
+
+.home-img img {
+    position: relative;
+    width: 200vw; /* Increased width to make the GIF bigger */
+    box-shadow: none; /* Removed the box-shadow (border) */
+    cursor: pointer;
+    transition: 0.2s linear;
+    z-index: 100;
+}
+
+.home-img img:hover {
+    font-size: 1.8rem;
+    font-weight: 500;
+    z-index: 100;
+}
+
+.social-icons a {
+    display: inline-flex;  /* Makes the links align like inline elements, while using flexbox layout */
+    justify-content: center; /* Center the icon inside the link */
+    align-items: center; /* Vertically center the icon */
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid #b74b4b;
+    font-size: 2rem;
+    border-radius: 50%; /* Makes the icon circular */
+    margin: 1rem; /* Adjust margin for better spacing */
+    transition: 0.3s ease;
+    color: #b74b4b;
+}
+
+.social-icons a:hover{
+    color: black;
+    transform: scale(1.3) translateY(-5px);
+    background-color: #b74b4b;
+    box-shadow: 0  0 25px #b74b4b;
+}
+
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #b74b4b;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid #b74b4b;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale3d(1.03);
+    background-color: #b74b4b;
+    color: black;
+    box-shadow: 0 0 25px #b74b4b;
+}
+
+.typing-text{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.typing-text span{
+    position: relative;
+}
+
+.typing-text span::before{
+    content: "software Developer";
+    color: hsl(216, 2%, 51%);
+    animation: words 20s infinite;
+}
+
+.typing-text span::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid black;
+    right: -8;
+    animation: cursor 0.6s infinite;
+}
+
+@keyframes cursor{
+    to{
+        border-left: 3px solid #b74b4b;
+    }
+}
+
+@keyframes words{
+    0%, 20%{
+        content: "Developer";
+    }
+    21%, 40%{
+        content: "Student";
+    }
+    41%, 60%{
+        content: "Researcher";
+    }
+    81%, 100%{
+        content: "Scripter";
+    }
+}
